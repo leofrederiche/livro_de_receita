@@ -31,7 +31,7 @@
 
 .welcome-container::after{
   content: "";
-  background-image: image-url("bg_welcome.jpg");
+  background-image: image-url("bg_welcome2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.35;
@@ -71,3 +71,25 @@
   opacity: 8;
 }
 
+
+
+
+.welcome-recipe{
+  position: relative;
+  height: 100vh;
+  background: rgba(255,255,255,0.9);
+  text-align: center;
+  font-size: 400%;
+  padding: 60px;
+}
+
+.welcome-show-recipes{
+  text-align: left;
+}
+
+#welcome-recipe-list{
+  position: relative;
+  width: 80px;
+  height: 80px;
+  float: left;
+}

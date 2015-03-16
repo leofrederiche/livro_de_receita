@@ -2773,3 +2773,1871 @@ Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-13 16:59:18 -030
 
 
 Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-13 16:59:18 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 21:26:46 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (96.4ms)
+Completed 200 OK in 519ms (Views: 456.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 21:26:47 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 59ms (Views: 58.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 21:26:47 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 21:26:47 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 21:26:47 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 21:26:47 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 21:26:47 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 21:26:48 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 21:30:37 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 180ms (Views: 179.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 21:30:37 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 21:30:37 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 21:30:37 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 21:30:37 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 21:30:37 -0300
+
+
+Started GET "/images/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 21:30:37 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/bg_welcome2.jpg"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/designa/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/designa/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/designa/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/designa/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/designa/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /home/designa/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (40.1ms)
+  Rendered /home/designa/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (78.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 21:30:41 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 75ms (Views: 74.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 21:30:41 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 21:30:41 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 21:30:41 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 21:30:41 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 21:30:41 -0300
+
+
+Started GET "/images/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 21:30:41 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/bg_welcome2.jpg"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/designa/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/designa/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/designa/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/designa/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/designa/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /home/designa/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /home/designa/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 21:30:58 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 46ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 21:30:58 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 21:30:58 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 21:30:58 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 21:30:58 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 21:30:58 -0300
+
+
+Started GET "/images/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 21:30:59 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/bg_welcome2.jpg"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/designa/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/designa/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/designa/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/designa/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/designa/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /home/designa/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /home/designa/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (26.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 21:31:02 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 21:31:33 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 39ms (Views: 37.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 21:31:33 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 21:31:33 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 21:31:33 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 21:31:33 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 21:31:33 -0300
+
+
+Started GET "/images/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 21:31:34 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/bg_welcome2.jpg"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/designa/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/designa/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/designa/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/designa/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/designa/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/designa/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /home/designa/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (26.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 21:31:38 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 103ms (Views: 101.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 21:31:38 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 21:31:38 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 21:31:38 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 21:31:38 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 21:31:38 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 21:31:39 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 21:31:53 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 108ms (Views: 107.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 21:31:53 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 21:31:53 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 21:31:53 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 21:31:53 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 21:31:53 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 21:31:53 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 21:34:37 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 67ms (Views: 66.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 21:34:37 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 21:34:37 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 21:34:37 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 21:34:38 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 21:34:38 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 21:34:38 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 21:34:41 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 68ms (Views: 67.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 21:34:42 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 21:34:42 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 21:34:42 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 21:34:42 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 21:34:42 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 21:34:42 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 21:41:59 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 74ms (Views: 73.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 21:42:00 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 21:42:00 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 21:42:00 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 21:42:00 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 21:42:00 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 21:42:00 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 21:42:17 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 69ms (Views: 68.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 21:42:17 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 21:42:17 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 21:42:17 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 21:42:17 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 21:42:17 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 21:42:17 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 21:42:36 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 69ms (Views: 68.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 21:42:36 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 21:42:36 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 21:42:36 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 21:42:36 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 21:42:36 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 21:42:36 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 21:43:19 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 81ms (Views: 80.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 21:43:19 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 21:43:19 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 21:43:19 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 21:43:19 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 21:43:19 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 21:43:19 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 21:43:28 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 67ms (Views: 66.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 21:43:28 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 21:43:28 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 21:43:28 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 21:43:28 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 21:43:28 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 21:43:28 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 21:43:37 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 71ms (Views: 69.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 21:43:38 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 21:43:38 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 21:43:38 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 21:43:38 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 21:43:38 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 21:43:38 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 21:44:24 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 78ms (Views: 77.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 21:44:24 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 21:44:24 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 21:44:24 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 21:44:24 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 21:44:24 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 21:44:24 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 21:44:30 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 72ms (Views: 71.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 21:44:31 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 21:44:31 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 21:44:31 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 21:44:31 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 21:44:31 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 21:44:31 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 21:44:34 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 68ms (Views: 67.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 21:44:34 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 21:44:34 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 21:44:34 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 21:44:34 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 21:44:34 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 21:44:34 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 21:47:14 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 49ms (Views: 47.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 21:47:14 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 21:47:14 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 21:47:14 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 21:47:14 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 21:47:14 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 21:47:15 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 21:48:12 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 69ms (Views: 68.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 21:48:12 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 21:48:12 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 21:48:12 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 21:48:12 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 21:48:12 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 21:48:13 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 21:48:19 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 69ms (Views: 68.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 21:48:19 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 21:48:19 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 21:48:19 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 21:48:19 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 21:48:19 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 21:48:20 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 21:48:29 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 76ms (Views: 74.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 21:48:30 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 21:48:30 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 21:48:30 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 21:48:30 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 21:48:30 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 21:48:30 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 21:48:36 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 79ms (Views: 78.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 21:48:36 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 21:48:36 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 21:48:36 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 21:48:36 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 21:48:36 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 21:48:37 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 21:49:06 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 44ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 21:49:06 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 21:49:06 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 21:49:06 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 21:49:06 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 21:49:06 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 21:49:06 -0300
+
+
+Started GET "/.welcome-recipe" for 127.0.0.1 at 2015-03-15 21:49:08 -0300
+
+ActionController::RoutingError (No route matches [GET] "/.welcome-recipe"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/designa/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/designa/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/designa/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/designa/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/designa/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /home/designa/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /home/designa/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (25.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 21:49:24 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 50ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 21:49:24 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 21:49:24 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 21:49:24 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 21:49:24 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 21:49:24 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 21:49:24 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 21:59:25 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 43ms (Views: 41.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 21:59:25 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 21:59:25 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 21:59:25 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 21:59:25 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 21:59:25 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 21:59:25 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 21:59:25 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 21:59:47 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 75ms (Views: 74.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 21:59:47 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 21:59:47 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 21:59:47 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 21:59:47 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 21:59:47 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 21:59:47 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 21:59:48 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 21:59:55 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 73ms (Views: 72.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 21:59:55 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 21:59:55 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 21:59:55 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 21:59:55 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 21:59:55 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 21:59:55 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 21:59:56 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 22:00:16 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 75ms (Views: 73.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 22:00:16 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 22:00:16 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 22:00:16 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 22:00:16 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 22:00:16 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 22:00:16 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 22:00:16 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 22:00:28 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 41ms (Views: 40.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 22:00:28 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 22:00:28 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 22:00:28 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 22:00:28 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 22:00:28 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 22:00:28 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 22:00:28 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 22:00:44 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 51ms (Views: 50.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 22:00:44 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 22:00:44 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 22:00:44 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 22:00:44 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 22:00:44 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 22:00:44 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 22:00:44 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 22:00:53 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (31.0ms)
+Completed 200 OK in 69ms (Views: 68.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 22:00:53 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 22:00:53 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 22:00:53 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 22:00:53 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 22:00:53 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 22:00:53 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 22:00:53 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 22:00:58 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 60ms (Views: 58.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 22:00:58 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 22:00:58 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 22:00:58 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 22:00:58 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 22:00:58 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 22:00:58 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 22:00:58 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 22:01:12 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (34.2ms)
+Completed 200 OK in 72ms (Views: 70.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 22:01:12 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 22:01:12 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 22:01:12 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 22:01:12 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 22:01:12 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 22:01:12 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 22:01:12 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 22:01:17 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (33.3ms)
+Completed 200 OK in 72ms (Views: 71.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 22:01:17 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 22:01:17 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 22:01:17 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 22:01:17 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 22:01:17 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 22:01:17 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 22:01:17 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 22:01:21 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (33.1ms)
+Completed 200 OK in 70ms (Views: 69.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 22:01:21 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 22:01:21 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 22:01:21 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 22:01:21 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 22:01:21 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 22:01:21 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 22:01:21 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 22:01:26 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (30.2ms)
+Completed 200 OK in 77ms (Views: 76.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 22:01:26 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 22:01:26 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 22:01:26 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 22:01:26 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 22:01:26 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 22:01:26 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 22:01:26 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 22:01:30 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (29.5ms)
+Completed 200 OK in 68ms (Views: 67.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 22:01:31 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 22:01:31 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 22:01:31 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 22:01:31 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 22:01:31 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 22:01:31 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 22:01:31 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 22:01:44 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (33.7ms)
+Completed 200 OK in 71ms (Views: 70.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 22:01:44 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 22:01:44 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 22:01:44 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 22:01:44 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 22:01:44 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 22:01:44 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 22:01:44 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 22:01:51 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (36.5ms)
+Completed 200 OK in 77ms (Views: 75.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 22:01:51 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 22:01:51 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 22:01:51 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 22:01:51 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 22:01:51 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 22:01:51 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 22:01:51 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 22:01:58 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (29.2ms)
+Completed 200 OK in 68ms (Views: 67.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 22:01:58 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 22:01:58 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 22:01:58 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 22:01:58 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 22:01:58 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 22:01:58 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 22:01:58 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 22:02:06 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (23.0ms)
+Completed 200 OK in 62ms (Views: 61.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 22:02:06 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 22:02:06 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 22:02:06 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 22:02:06 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 22:02:06 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 22:02:06 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 22:02:06 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 22:02:18 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (33.0ms)
+Completed 200 OK in 71ms (Views: 69.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 22:02:18 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 22:02:18 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 22:02:19 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 22:02:19 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 22:02:19 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 22:02:19 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 22:02:19 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 22:02:22 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (24.9ms)
+Completed 200 OK in 63ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 22:02:22 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 22:02:22 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 22:02:22 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 22:02:22 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 22:02:22 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 22:02:22 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 22:02:22 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 22:02:28 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (25.3ms)
+Completed 200 OK in 63ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 22:02:28 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 22:02:28 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 22:02:28 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 22:02:28 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 22:02:28 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 22:02:28 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 22:02:28 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 22:02:47 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 95ms (Views: 94.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 22:02:47 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 22:02:47 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 22:02:47 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 22:02:47 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 22:02:47 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 22:02:47 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 22:02:47 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 22:02:55 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (19.3ms)
+Completed 200 OK in 91ms (Views: 90.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 22:02:55 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 22:02:55 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 22:02:55 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 22:02:55 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 22:02:55 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 22:02:55 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 22:02:55 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 22:03:00 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (24.3ms)
+Completed 200 OK in 98ms (Views: 97.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 22:03:00 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 22:03:00 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 22:03:00 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 22:03:00 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 22:03:00 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 22:03:00 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 22:03:00 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 22:03:26 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (27.6ms)
+Completed 200 OK in 100ms (Views: 99.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 22:03:26 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 22:03:26 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 22:03:26 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 22:03:26 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 22:03:26 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 22:03:26 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 22:03:26 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 22:03:30 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (18.9ms)
+Completed 200 OK in 101ms (Views: 100.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 22:03:30 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 22:03:30 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 22:03:30 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 22:03:30 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 22:03:30 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 22:03:30 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 22:03:30 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 22:03:35 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (26.3ms)
+Completed 200 OK in 111ms (Views: 110.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 22:03:35 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 22:03:35 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 22:03:35 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 22:03:35 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 22:03:35 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 22:03:35 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 22:03:35 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 22:03:46 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (27.9ms)
+Completed 200 OK in 111ms (Views: 110.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 22:03:46 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 22:03:46 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 22:03:46 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 22:03:46 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 22:03:46 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 22:03:46 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 22:03:46 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 22:04:04 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (47.9ms)
+Completed 200 OK in 86ms (Views: 84.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 22:04:04 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 22:04:04 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 22:04:04 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 22:04:04 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 22:04:04 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 22:04:04 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 22:04:04 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 22:04:14 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (55.7ms)
+Completed 200 OK in 106ms (Views: 104.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 22:04:14 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 22:04:14 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 22:04:14 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 22:04:14 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 22:04:14 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 22:04:14 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 22:04:14 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 22:04:22 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (53.5ms)
+Completed 200 OK in 96ms (Views: 94.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 22:04:22 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 22:04:22 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 22:04:22 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 22:04:22 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 22:04:22 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 22:04:22 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 22:04:22 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 22:04:36 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (49.3ms)
+Completed 200 OK in 132ms (Views: 131.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 22:04:36 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 22:04:36 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 22:04:36 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 22:04:36 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 22:04:36 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 22:04:36 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 22:04:36 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 22:04:54 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (33.6ms)
+Completed 200 OK in 72ms (Views: 71.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 22:04:55 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 22:04:55 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 22:04:55 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 22:04:55 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 22:04:55 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 22:04:55 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 22:04:55 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 22:05:01 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (28.7ms)
+Completed 200 OK in 67ms (Views: 66.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 22:05:01 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 22:05:01 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 22:05:01 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 22:05:01 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 22:05:01 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 22:05:01 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 22:05:01 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 22:05:06 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (24.2ms)
+Completed 200 OK in 65ms (Views: 63.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 22:05:06 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 22:05:06 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 22:05:06 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 22:05:06 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 22:05:06 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 22:05:06 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 22:05:06 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 22:05:10 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (23.7ms)
+Completed 200 OK in 63ms (Views: 62.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 22:05:10 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 22:05:10 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 22:05:10 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 22:05:10 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 22:05:10 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 22:05:10 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 22:05:10 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 22:06:44 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (21.2ms)
+Completed 200 OK in 68ms (Views: 66.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 22:06:44 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 22:06:44 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 22:06:44 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 22:06:44 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 22:06:44 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 22:06:44 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 22:06:54 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 55ms (Views: 54.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 22:06:54 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 22:06:54 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 22:06:54 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 22:06:54 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 22:06:54 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 22:06:54 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 22:06:57 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (22.7ms)
+Completed 200 OK in 63ms (Views: 62.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 22:06:57 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 22:06:57 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 22:06:57 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 22:06:57 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 22:06:57 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 22:06:57 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 22:06:57 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 22:07:33 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 100ms (Views: 99.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 22:07:33 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 22:07:33 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 22:07:33 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 22:07:33 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 22:07:33 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 22:07:33 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 22:07:33 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 22:07:40 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 109ms (Views: 108.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 22:07:40 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 22:07:40 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 22:07:40 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 22:07:41 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 22:07:41 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 22:07:41 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 22:07:41 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 22:07:45 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (26.1ms)
+Completed 200 OK in 111ms (Views: 110.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-15 22:07:46 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-15 22:07:46 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-15 22:07:46 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-15 22:07:46 -0300
+
+
+Started GET "/assets/down_arrow.png" for 127.0.0.1 at 2015-03-15 22:07:46 -0300
+
+
+Started GET "/assets/bg_welcome.jpg" for 127.0.0.1 at 2015-03-15 22:07:46 -0300
+
+
+Started GET "/assets/bg_welcome2.jpg" for 127.0.0.1 at 2015-03-15 22:07:46 -0300
