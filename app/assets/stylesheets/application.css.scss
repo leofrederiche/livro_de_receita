@@ -20,7 +20,38 @@
   font-family: 'Julius Sans One', sans-serif !important;
   margin: 0px;
   background-color: black !important;
+  /*
+  overflow:hidden;
+  */
  }
+
+.arrow{
+  width: 70px;
+  position: absolute;
+  -webkit-filter: invert(50%);
+  transition: 0.2s;
+  opacity: 0.6;
+  margin: 0px;
+}
+
+.arrow:hover{
+  opacity: 1;
+  -webkit-filter: invert(60%);
+}
+
+.center-top{
+  position: absolute;
+  margin: 0px;
+  top: 36%;
+  left: 93%;
+}
+
+.center-bottom{
+  position: absolute;
+  margin: 0px;
+  top: 46%;
+  left: 93%;
+}
 
 .welcome-container{
   height: 100vh;
@@ -89,7 +120,30 @@
 
 #welcome-recipe-list{
   position: relative;
-  width: 80px;
-  height: 80px;
-  float: left;
+  width: 110px;
+  height: 50px;
+}
+
+
+
+
+.welcome-actions{
+  position: relative;
+  height: 100vh;
+  width: 101.25%;
+  background: rgba(255,255,255,0.7);
+  text-align: center;
+  padding: 60px;  
+
+}
+
+.action{
+  position: relative;
+  padding: 5%;
+  margin: 1px;
+  margin: 0 auto;
+  height: 40%;
+  top: 20vh;
+  z-index: 1;
+  color: black;  
 }

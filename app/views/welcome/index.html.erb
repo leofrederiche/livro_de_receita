@@ -1,6 +1,6 @@
 <div class="welcome-container">
 
-  <nav class="welcome-nav">
+  <nav class="welcome-nav" id="welcome">
     <ul>
       <li>Login</li>
       <li>Cadastro</li>
@@ -19,87 +19,122 @@
 
 <div class="welcome-recipe" id="welcome-recipe">
 
+  <a href="#welcome">
+    <%= image_tag "up_arrow.png", class: "arrow center-top" %>
+  </a>
+  <a href="#welcome-actions">
+    <%= image_tag "down_arrow.png", class: "arrow center-bottom" %>
+  </a>
+
+
   <p>+ de 8000 receitas</p>
 
   <div class="welcome-show-recipes">
-    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list" %>
-    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome2.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+    <%= image_tag "bg_welcome.jpg", id: "welcome-recipe-list", class: "col-xs-1 col-md-1" %>
+  </div>
+
+</div>
+
+<div class="welcome-actions row" id="welcome-actions">
+
+  <a href="#welcome-recipe">
+    <%= image_tag "up_arrow.png", class: "arrow center-top" %>
+  </a>
+  
+  <div class="action col-xs-12 col-md-6" id="welcome-new-user" >
+    <p>Crie sua conta e compartilhe deliciosas receitas</p>
+
+    <input type="button" value="Cadastra-se">
+
+  </div>
+
+  
+
+  <div class="action col-xs-12 col-md-6" id="welcome-new-recipe">
+    <p>Faça já sua coleção de receitas, é facil</p>
+
+    <input type="button" value="Entrar">
+
   </div>
 
 </div>
