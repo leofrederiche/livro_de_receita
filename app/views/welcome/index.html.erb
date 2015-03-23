@@ -2,9 +2,10 @@
 
   <nav class="welcome-nav" id="welcome">
     <ul>
-      <li>Login</li>
-      <li>Cadastro</li>
+      <li><%= link_to "LOGIN", new_user_session_path %></li>
+      <li><%= link_to "CADASTRO", new_user_registration_path %></li>
       <li>Receitas</li>
+      <li><%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %></li>
     </ul>
   </nav>
 
@@ -18,14 +19,6 @@
 </div>
 
 <div class="welcome-recipe" id="welcome-recipe">
-
-  <a href="#welcome">
-    <%= image_tag "up_arrow.png", class: "arrow center-top" %>
-  </a>
-  <a href="#welcome-actions">
-    <%= image_tag "down_arrow.png", class: "arrow center-bottom" %>
-  </a>
-
 
   <p>+ de 8000 receitas</p>
 
@@ -116,10 +109,6 @@
 </div>
 
 <div class="welcome-actions row" id="welcome-actions">
-
-  <a href="#welcome-recipe">
-    <%= image_tag "up_arrow.png", class: "arrow center-top" %>
-  </a>
   
   <div class="action col-xs-12 col-md-6" id="welcome-new-user" >
     <p>Crie sua conta e compartilhe deliciosas receitas</p>
@@ -127,8 +116,6 @@
     <input type="button" value="Cadastra-se" class="btn btn-primary">
 
   </div>
-
-  
 
   <div class="action col-xs-12 col-md-6" id="welcome-new-recipe">
     <p>Faça já sua coleção de receitas, é facil</p>

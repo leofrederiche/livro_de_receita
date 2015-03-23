@@ -19,11 +19,38 @@
  body{
   font-family: 'Julius Sans One', sans-serif !important;
   margin: 0px;
-  background-color: black !important;
+  background-color: rgba(0,0,0,0.3) !important;
+
   /*
   overflow:hidden;
-  */
+  */  
+  padding: 50px;
+  text-align: center;
  }
+
+form{
+  color: black;
+  background-color: rgba(255,255,255,0.97);
+  padding: 40px;
+  width: 40%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.Brand{
+  width: 40px;
+  position: relative;
+  top: -10px;
+}
+
+a{
+  text-decoration: none !important;
+  color: white !important;
+}
+
+nav a{
+  color: black !important;
+}
 
 .arrow{
   width: 70px;
@@ -40,25 +67,11 @@
   -webkit-filter: invert(60%);
 }
 
-.center-top{
-  position: absolute;
-  margin: 0px;
-  top: 36%;
-  left: 93%;
-}
-
-.center-bottom{
-  position: absolute;
-  margin: 0px;
-  top: 46%;
-  left: 93%;
-}
-
 .welcome-container{
   height: 100vh;
   text-align: center;
   padding: 20%;
-  color: rgba(255,255,255,0.9);
+  color: rgba(0,0,0,0.6);
 }
 
 .welcome-container::after{
@@ -95,16 +108,14 @@
   width: 70px;
   position: relative;
   top: 200px;
-  opacity: 0.3;
+  opacity: 0.5;
   transition: 0.2s;
 }
 
 .welcome-arrow:hover{
-  opacity: 8;
+  -webkit-filter: invert(80%);
+  opacity: 1;
 }
-
-
-
 
 .welcome-recipe{
   position: relative;
@@ -113,6 +124,8 @@
   text-align: center;
   font-size: 400%;
   padding: 60px;
+  margin: -50px;
+  color: gray;
 }
 
 .welcome-show-recipes{
@@ -123,21 +136,20 @@
   position: relative;
   width: 110px;
   height: 50px;
+  left: 5%;
 }
-
-
-
 
 .welcome-actions{
   position: relative;
   height: 100vh;
-  width: 101.25%;
+  width: 110%;
+  top: 50px;
   background-image: image-url("bg_action.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   text-align: center;
-  padding: 60px;  
-
+  padding: 60px;
+  left: -52px;
 }
 
 .action{
