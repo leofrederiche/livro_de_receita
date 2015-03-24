@@ -163,3 +163,81 @@ nav a{
   color: black;  
   background-color: rgba(255,255,255,0.5);
 }
+
+.recipes{
+  text-align: left !important;
+}
+
+.recipes-container{
+  background-color: white;
+  position: fixed;
+  left: 0px;
+  top: 50px;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+}
+
+.recipes-nav{
+  margin: 20px -50px;
+  margin-top: -70px;
+  background-color: rgba(0,0,0,0.2);
+  border: 1px 0px solid black;
+  text-align: left;
+  padding: 20px;
+}
+
+.recipes-nav a{
+  color: black !important;
+  transition: 0.2s;
+  margin: 0px 20px;
+}
+
+.recipes-nav a:hover{
+  -webkit-filter: invert(100%);
+}
+
+.recipes-nav img{
+  width: 50px;
+}
+
+.recipes-nav input{
+  font-size: 140%;
+  position: relative;
+  left: 40%;
+  margin: -3px;
+}
+
+.recipes-nav .search-button{
+  background-color: white;
+  border: 1px solid gray;
+  border-left: white;
+  background-image: image-url("imgs/magnifier13.png");
+  background-position: right;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 34px;
+  background-color: white;
+}
+
+.recipe{
+  border: 1px solid gray;
+  position: relative;
+  margin-top: 80px;
+  background-color: rgba(0,0,0,0.01);
+  height: 170px;
+}
+
+#recipe-picture{
+  width: 200px;
+  height: 150px;
+  border: 1px solid gray;
+  padding: 3px;
+  position: relative;
+  top: -30px;
+  left: 30px;
+  background-color: white;
+  float: left;
+  margin: 0 50px 50px 0;
+}

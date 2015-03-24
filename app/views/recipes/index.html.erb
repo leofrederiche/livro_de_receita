@@ -1,10 +1,51 @@
 <h1>Receitas</h1>
 
-<div class="recipes-container row">
-	<div class="col-xs-12 col-md-6">
-		<h1>Teste</h1>
+<div class="recipes-container">
+</div>
+
+<div class="recipes">
+	<div class="recipes-nav">
+		<%= link_to "#" do %>
+			<%= image_tag "imgs/add20.png" %>
+			Adicionar receita
+		<% end %>
+
+		<%= link_to "#" do %>
+			<%= image_tag "imgs/search104.png" %>
+			Filtrar
+		<% end %>
+
+		<input type="text" placeholder="Procurar">
+		<input type="button" value=" " class="search-button">
 	</div>
-	<div class="col-xs-12 col-md-6">
-		<h1>Teste</h1>
+
+	<div class="recipe">
+		<%= image_tag "bg_welcome2.jpg", id: "recipe-picture" %>
+		<h1>Bolinho doce</h1>
+		<p>
+			Descrissao basica da receita do bolinho doce ou a introduçao da receita 
+			Descrissao basica da receita do bolinho doce ou a introduçao da receita 
+			Descrissao basica da receita do bolinho doce ou a introduçao da receita Descrissao basica da receita do bolinho doce ou a introduçao da receita Descrissao basica da receita do bolinho doce ou a introduçao da receita.
+		</p>
+	</div>
+
+	<div class="recipe">
+		<%= image_tag "bg_welcome.jpg", id: "recipe-picture" %>
+		<h1>Bolinho doce</h1>
+		<p>
+			Descrissao basica da receita do bolinho doce ou a introduçao da receita 
+			Descrissao basica da receita do bolinho doce ou a introduçao da receita 
+			Descrissao basica da receita do bolinho doce ou a introduçao da receita Descrissao basica da receita do bolinho doce ou a introduçao da receita Descrissao basica da receita do bolinho doce ou a introduçao da receita.
+		</p>
+	</div>
+
+	<div class="recipe">
+		<%= image_tag "bg_welcome2.jpg", id: "recipe-picture" %>
+		<h1>Bolinho doce</h1>
+		<p>
+			Descrissao basica da receita do bolinho doce ou a introduçao da receita 
+			Descrissao basica da receita do bolinho doce ou a introduçao da receita 
+			Descrissao basica da receita do bolinho doce ou a introduçao da receita Descrissao basica da receita do bolinho doce ou a introduçao da receita Descrissao basica da receita do bolinho doce ou a introduçao da receita.
+		</p>
 	</div>
 </div>
