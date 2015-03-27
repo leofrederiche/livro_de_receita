@@ -45,7 +45,6 @@ form{
 
 a{
   text-decoration: none !important;
-  color: white !important;
 }
 
 nav a{
@@ -56,6 +55,9 @@ nav a{
   width: 70px;
   position: absolute;
   -webkit-filter: invert(50%);
+  -moz-filter: invert(50%);
+  -ms-filter: invert(50%);
+  filter: invert(50%);
   transition: 0.2s;
   opacity: 0.6;
   margin: 0px;
@@ -65,6 +67,9 @@ nav a{
 .arrow:hover{
   opacity: 1;
   -webkit-filter: invert(60%);
+  -moz-filter: invert(60%);
+  -ms-filter: invert(60%);
+  filter: invert(60%);
 }
 
 .welcome-container{
@@ -114,6 +119,9 @@ nav a{
 
 .welcome-arrow:hover{
   -webkit-filter: invert(80%);
+  -moz-filter: invert(80%);
+  -ms-filter: invert(80%);
+  filter: invert(80%);
   opacity: 1;
 }
 
@@ -195,6 +203,9 @@ nav a{
 
 .recipes-nav a:hover{
   -webkit-filter: invert(100%);
+  -moz-filter: invert(100%);
+  -ms-filter: invert(100%);
+  filter: invert(100%);
 }
 
 .recipes-nav img{
@@ -226,7 +237,7 @@ nav a{
   position: relative;
   margin-top: 80px;
   background-color: rgba(0,0,0,0.01);
-  height: 170px;
+  min-height: 170px;
 }
 
 #recipe-picture{
@@ -240,4 +251,69 @@ nav a{
   background-color: white;
   float: left;
   margin: 0 50px 50px 0;
+}
+
+.recipe-instructions{
+  position: relative;
+  margin: 30px;
+  margin-top: 90px;
+  text-align: left;
+}
+
+#recipe-steps{
+  list-style: none;
+  display: inline;
+  font-size: 200%;
+  margin-right: 30px;
+  border-bottom: 1px solid lightgray;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#recipe-steps:hover{
+  color: darkorange;
+}
+
+#recipe-ingredient{
+  position: relative;
+  left: 7%;
+}
+
+.recipe-ingredients{
+  display: block;
+}
+
+.recipe-preparation{
+  display: none;
+}
+
+.recipe-bg{
+  position: absolute;
+  background-image: image-url("bg_welcome2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  left: 0px;
+  height: 250px;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+.recipe-picture{
+  transition: 0.5s;
+}
+
+.recipe-picture:hover{
+  -webkit-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  transform: scale(1.4);
+  
+}
+
+pre{
+  position: relative;
+  min-height: 200px;
+  background-color: rgba(0,0,0,0.01) !important;
+  color: gray !important;
 }

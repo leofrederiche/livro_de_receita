@@ -4,4 +4,8 @@ class RecipesController < ApplicationController
 		
 	end
 
+	def show
+		
+	end
+
 end

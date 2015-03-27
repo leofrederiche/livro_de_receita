@@ -29,3 +29,13 @@ $(document).ready(function(){
   });
 
 });
+
+function show_ingredients(){
+  	var ingredients = document.getElementById("recipe-ingredients").style.display = "block";
+  	var preparation = document.getElementById("recipe-preparation").style.display = "none";
+  };
+
+  function show_preparation(){
+  	var ingredients = document.getElementById("recipe-ingredients").style.display = "none";
+  	var preparation = document.getElementById("recipe-preparation").style.display = "block";
+  };
