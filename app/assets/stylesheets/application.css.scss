@@ -253,10 +253,18 @@ nav a{
   margin: 0 50px 50px 0;
 }
 
+#recipe-description{
+  position: relative;
+  float: left;
+  left: 25px;
+  padding: 20px;
+  background-color: rgba(255,255,255,0.4);
+}
+
 .recipe-instructions{
   position: relative;
   margin: 30px;
-  margin-top: 90px;
+  margin-top: 190px;
   text-align: left;
 }
 
@@ -314,6 +322,25 @@ nav a{
 pre{
   position: relative;
   min-height: 200px;
+  border: none !important;
   background-color: rgba(0,0,0,0.01) !important;
-  color: gray !important;
+  color: black !important;
+  font-family: 'Julius Sans One', sans-serif !important;
+}
+
+#ingredients-exemple{
+  min-height: 200px;
+  background-color: rgba(0,0,0,0.01) !important;
+  color: gray !important; 
+  text-align: left;
+}
+
+#new_recipe{
+  width: 100%;
+  text-align: left;
+  font-size: 120%;
+}
+
+#new_recipe textarea{
+  min-width: 400px;
 }

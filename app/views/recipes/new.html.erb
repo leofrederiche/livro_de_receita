@@ -1,0 +1,32 @@
+
+
+<div class="recipes-container">
+</div>
+
+<h1>Nova receita</h1>
+
+<%= form_for @new_recipe, url: new_recipe_path do |recipe| %>
+
+	<%= recipe.label :picture, "Envie uma foto" %>
+	<%= recipe.file_field :picture %>
+
+	<%= recipe.label :title, "Titulo" %><br>
+	<%= recipe.text_field :title %><br>
+
+	<%= recipe.label :description, "Descrisao" %><br>
+	<%= recipe.text_area :description %><br>
+
+	<%= recipe.label :ingredients, "Ingredientes" %>
+	<small>utilize (virgula) para separar os ingredientes.</small><br>
+	<%= recipe.text_area :ingredients%><br><br>
+
+	<%= recipe.label :directions, "Modo de preparo" %><br>
+	<%= recipe.text_area :directions, :'ng-model'=> "directions" %><br>
+
+	<small>Exibiçao do Modo de preparo (verifique para ficar legivel)</small>
+	<pre id="ingredients-exemple" ng-bind="directions"></pre>
+
+	<%= recipe.submit "Cozinhar!" %>
+<% end %>
+
+

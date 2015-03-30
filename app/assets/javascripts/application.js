@@ -14,6 +14,8 @@
 //= require jquery_ujs
 //= require_tree .
 
+
+
 $(document).ready(function(){
 
   $('a[href^="#"]').on('click',function (e) {

@@ -4,13 +4,14 @@
 <div class="recipe-bg">
 </div>
 
-<h1>Bolinho doce</h1>
+<h1><%= @recipe.title %></h1>
 
-<%= image_tag "bg_welcome2.jpg", id: "recipe-picture", class: "recipe-picture" %>
+<%= image_tag @recipe.picture.url, id: "recipe-picture", class: "recipe-picture" %>
 
-<p>
-	Descris~ao basica do bolinho doce Descris~ao basica do bolinho doce Descris~ao basica do bolinho doce Descris~ao basica do bolinho doce Descris~ao basica do bolinho doce Descris~ao basica do bolinho doce Descris~ao basica do bolinho doce Descris~ao basica do bolinho doce Descris~ao basica do bolinho doce Descris~ao basica do bolinho doce Descris~ao basica do bolinho doce Descris~ao basica do bolinho doce 
-</p>
+<p id="recipe-description">
+<%= @recipe.description %>
+</p >
+
 <br>
 
 <div class="recipe-instructions">
@@ -21,23 +22,16 @@
 	</ul>
 
 	<div class="recipe-ingredients" id="recipe-ingredients">
-		<ul>
-			<li id="recipe-ingredient">colheres de Açucar - 2x</li>
-			<li id="recipe-ingredient">Agua - 500ml</li>
-			<li id="recipe-ingredient">Chocolate - 300g</li>
-			<li id="recipe-ingredient">Fermento - 50g</li>
-			<li id="recipe-ingredient">Chantili - a gosto</li>
+		<ul>	
+			<% @recipe.ingredients.split(",").each do |recipe| %>
+				<li id="recipe-ingredient"><%= recipe %></li>
+			<% end %>
 		</ul>	
 	</div>
 
 	<div class="recipe-preparation" id="recipe-preparation" >
 		<pre>
-Coloque todos os ingredientes em uma tigeja e misture-os ate' formar uma pasta cremosa.
-Adicione a massa em pequenos recipientes e levo-os a geladeira por 8h, a massa ficara' mais densa e tambem com uma cor 
-mais escura.
-
-Apos, voce podera servir de diversas maneiras, sendo com chatili entre dois bolinhos, com cereja, leite condensado, granulado, 
-confete ou com bolo e sorvete.
+<%= @recipe.directions %>
 		</pre>
 	</div>	
 
